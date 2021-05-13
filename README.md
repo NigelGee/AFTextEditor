@@ -27,7 +27,7 @@ struct ContentView: View {
 }
 ```
 
-![RocketSimRecording-iPhone 12ProMax-2021-05-13-16.41.02](README.assets/RocketSimRecording-iPhone 12ProMax-2021-05-13-16.41.02.gif)
+![RocketSimRecording-iPhone12ProMax-2021-05-13-16.41.02](README.assets/RocketSimRecording-iPhone12ProMax-2021-05-13-16.41.02.gif)
 
 You can also change the way it look by parameters. With added the .foregroundColor and .font change the display
 
