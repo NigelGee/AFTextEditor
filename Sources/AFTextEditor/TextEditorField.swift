@@ -8,11 +8,17 @@
 import SwiftUI
 
 public struct TextEditorField: View {
+    /// Required - String for the placeholder
     let placeHolder: String
+    /// Color for the border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     let borderColor: Color
+    /// Line Width of Border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     let borderLine: CGFloat
+    /// Place Holder Text Color - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     let textColor: Color
+    /// Color for the background of text editor - Default is .clear
     let backgroundColor: Color
+    /// Required - Binding text of user input
     @Binding var text: String
 
     public init(_ placeHolder: String,
