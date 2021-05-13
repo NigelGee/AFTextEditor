@@ -8,19 +8,22 @@
 import SwiftUI
 
 public struct TextEditorField: View {
-    /// Required - String for the placeholder
     let placeHolder: String
-    /// Color for the border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     let borderColor: Color
-    /// Line Width of Border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     let borderLine: CGFloat
-    /// Place Holder Text Color - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     let textColor: Color
-    /// Color for the background of text editor - Default is .clear
     let backgroundColor: Color
-    /// Required - Binding text of user input
     @Binding var text: String
 
+
+    /// Creates a text field with a text label in which users can enter and edit long-form text.
+    /// - Parameters:
+    ///   - placeHolder: Required - String for the placeholder
+    ///   - borderColor: Color for the border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
+    ///   - borderLine: Line Width of Border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
+    ///   - textColor: Placeholder Text Color - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
+    ///   - backgroundColor: Color for the background of text editor - Default is .clear
+    ///   - text: Required - Binding text of user input
     public init(_ placeHolder: String,
          borderColor: Color = Color.secondary.opacity(0.2),
          borderLine: CGFloat = 1,
