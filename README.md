@@ -8,6 +8,10 @@ Add this Swift package in Xcode using its Github repository url. (File > Swift P
 
 ## Usage
 
+```swift
+import AFTextEditor
+```
+
 If you want the placeholder and binding text with the same styling as ```RoundedBorderTextFieldStyle()``` then 
 
 ```swift
@@ -50,6 +54,8 @@ struct ContentView: View {
 ```
 
 ![RocketSimRecording-iPhone12ProMax-2021-05-13-16.47.39](README.assets/RocketSimRecording-iPhone12ProMax-2021-05-13-16.47.39.gif)
+
+
 
 ## License
 
