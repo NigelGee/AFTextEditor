@@ -17,7 +17,7 @@ public struct TextEditorField: View {
 
     /// Creates a text field with a text label in which users can enter and edit long-form text.
     /// - Parameters:
-    ///   - placeHolder: Required - LocalizedStringKey for the placeholder
+    ///   - placeHolder: Required - LocalizedStringKey for the placeholder.
     ///   - borderColor: Color for the border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     ///   - borderLine: Line Width of Border - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
     ///   - textColor: Placeholder Text Color - Default to match.textFieldStyle(RoundedBorderTextFieldStyle())
